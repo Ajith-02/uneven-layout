@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #E9EBED;
+}
+header{
+    padding: 40px;
+    text-align: center;
+    background-color: #295D09;
+    color: #E9EBED;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 25px;
+}
+
+nav{
+overflow: hidden;
+background-color: #AED36C;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #295D09;
+    font-size: 16px;
+}
+
+nav a:hover{
+    background-color: #295D09;
+    color: #E9EBED;
+}
+
+.leftCol{
+    float: left;
+width: 75%;
+font-size: 20px;
+}
+
+.rightCol{
+    float: left;
+width: 25%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+background-color: #FFFFFF;
+margin: 10px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+footer{
+padding: 25px;
+    text-align: center;
+    background-color: #295D09;
+    color: #E9EBED;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p a {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h3, p, h1{
+    margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .leftCol, .rightCol{
+        width: 100%;
+    }
+}
+
+
